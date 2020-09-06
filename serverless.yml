@@ -1,0 +1,9 @@
+org: rishav394
+app: rishav-space
+component: express
+name: file-server
+
+inputs:
+  src: ./
+  region: ap-south-1
+  domain: ${env:domain}
